@@ -8,5 +8,5 @@ jobs:
     test:
         runs-on: macos-latest
         steps:
-           - uses: actions/checkout@3
-           - uses: cypress-io/github-action@v6
+           - uses: actions/checkout
+           - uses: cypress-io/github-action
